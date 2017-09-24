@@ -2,6 +2,9 @@ Hi,
 
 Got stock on "Getting to know the Shoppify and Vendq APIs" around 10 pm.
 
+Prereqs: PHP 5.6
+         Shopify & vendq logins per creds below
+
 Here is what I have done of the original task:
 1. git repo with master and dev branches
 2. configured the shopify private app
@@ -26,3 +29,22 @@ Remaining:
 Regards,
 
 Emiliano
+
+
+
+============Shopify and Vendq store logins===============
+
+
+Shopify Account info
+email cfphpflex@gmail.com
+psswd cfphpflex
+Store name
+egaytan_stitch
+
+
+Vend Account info
+email cfphpflex@gmail.com
+psswd cfphpflex
+Store name
+egaytan_stitch
+https://egaytanstitch.vendhq.com/welcome
