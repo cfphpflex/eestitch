@@ -1,7 +1,5 @@
 <?php
 
-
-	
 	//	test classes pulling data from shopify & vendq accounts
 	$myStitchlightapisdata = new stitchlightapisdata();
 	$myGetAPIVendConfig  = $myStitchlightapisdata->getAPIVendConfig();
