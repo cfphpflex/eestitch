@@ -1,9 +1,27 @@
-Hi Emiliano,
+Hi,
 
-We’re excited to move you to the coding test part of our process.  This involves a coding test and in-depth conversation about your code with members of our engineering team. Given that there is a time gap between the completion of the test and the time we can review it, please make sure your code is checked into Github or Bitbucket at the end of 24 hours 9/24/17 @ 11am PST. Don't forget to send us a link to your repository. 
+Got stock on "Getting to know the Shoppify and Vendq APIs" around 10 pm.
 
-We will sync up after to schedule the code review with you later this week. The assignment asks you to connect to Shopify and Vend. Be prepared to discuss how you would integrate other sales channels with your design during the review. Although you have a full 24 hours to wow us with your skill, the main goal is to have a code sample that we can review with you and discuss various design/architectural decisions.  However it's very important that you integrate both channels, otherwise it will be very hard to show how your architecture would handle it.  Vend uses oauth2 for it's authentication and it can be tricky to set up.  Please reach out if you have any trouble setting it up.  
+Here is what I have done of the original task:
+1. configured the shopify private app
+2. added products w/ 1-3+ variants
+3. 2 same for both shopify and Vend and 1 different and unique in each
+4. wrote classes connecting to shopify & vendq
+5. tested classes to retrieve record  data
+6. exported stitchlight DDL schema
 
-Nothing about the test is meant to have you spin your gears, so feel free to email us anytime with questions. Make sure to `reply all' so that it goes to all of us.  
+Remaining:
+1. parse data from #5 above and insert into #6 db
+2. Reconciling and keeping recors in sync can be done via
+   a. vendq's addon for shopify
+      i. hopefully triggered via API or set to automatically update when records change
+         Synch from Vendq to Shopify
+         Synch from Shopify to Vendq
+3. integreate classes into a frame work
+4. rework classes such that database vendor integration can reuse or extend current classes methods
+5. Expose the stitch API endpoints:  to sync, post and get products
 
 
+Regards,
+
+Emiliano
